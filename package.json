@@ -1,0 +1,19 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "netlify-lambda serve ./src --config ./configs/webpack.functions.js",
+		"build": "netlify-lambda build ./src --config ./configs/webpack.functions.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"faunadb": "^2.7.0",
+		"netlify-lambda": "^2.0.1",
+		"webpack": "^4.44.1"
+	}
+}
